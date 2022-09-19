@@ -1,11 +1,12 @@
-q = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lst = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
-# odd = set([1, 3, 5, 7, 9])
-# prime = set([2, 3, 5, 7])
-
-# print(odd | prime)  # union
-# print(odd & prime)  # intersection
-# print(odd - prime)  # difference
-# print(odd ^ prime)  # symmetric difference
-
-print(q)
+lst.add(11)
+print(lst)
+lst.update([12, 13, 14, 15, 16, 17, 18, 19, 20])
+print(lst)
+lst.remove(12)
+print(lst)
+lst.discard(19)
+print(lst)
+lst.clear()
+print(lst)
