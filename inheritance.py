@@ -2,6 +2,8 @@ class A:
     def f1():
         print("A.f1")
 
+# Hello
+
 
 class B:
     def f2():
